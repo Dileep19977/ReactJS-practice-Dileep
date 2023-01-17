@@ -28,7 +28,6 @@ const Mysearch = (props) => {
     newarr1(newarr.filter((produc) => produc
      !== product))
    }
-
     const addlistbutton = ()=>
     {
         if(addsearchval){
@@ -64,7 +63,7 @@ const Mysearch = (props) => {
     return(
         <div>
         
-  <form class="form-inline" style={{display:'flex',alignItems:'baseline'}}>
+  <form class="form-inline" style={{display:'flex',alignItems:'baseline',marginTop:'15px'}}>
     <input class="form-control mr-sm-2" type="text" onChange={searchele} value={searchval} placeholder="Search" />
   </form>
   <div style={{marginTop:'20px'}}>
