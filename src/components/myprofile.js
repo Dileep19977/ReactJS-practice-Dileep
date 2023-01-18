@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 const Myprofile = () =>
 {
-    const pr = "Practice - React App - Dileep"
+    const pr = "Practice - React App - Dileep."
     return (
         <div id="idprofile" class="alert alert-primary" role="alert">
           <b>{pr.toUpperCase()}</b>
